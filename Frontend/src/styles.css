@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5f6368;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+nav ul li a:hover {
+  background-color: #f1f3f4;
+}
+
+/* Inbox */
+.inbox {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.inbox h2 {
+  color: #202124;
+  margin-bottom: 20px;
+}
+
+.inbox ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inbox ul li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.inbox ul li:last-child {
+  border-bottom: none;
+}
+
+.inbox ul li a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+  display: block;
+}
+
+.inbox ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Email View */
+.email-view {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.email-view h2 {
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+.email-view p {
+  color: #5f6368;
+  line-height: 1.6;
+}
+
+/* Compose Email */
+.compose-email {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.compose-email h2 {
+  color: #202124;
+  margin-bottom: 20px;
+}
+
+.compose-email form div {
+  margin-bottom: 15px;
+}
+
+.compose-email label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5f6368;
+  font-weight: 500;
+}
+
+.compose-email input[type="email"],
+.compose-email input[type="text"],
+.compose-email textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.compose-email textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.compose-email button {
+  background-color: #1a73e8;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.compose-email button:hover {
+  background-color: #135ba1;
+}
